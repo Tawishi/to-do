@@ -125,10 +125,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    BASE_DIR / "todo/static",
-    'todo/static/bs/css',
-    'todo/static/fonts',
-    'todo/static/js',
+    BASE_DIR / "static",
 ]
 # PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
