@@ -1,0 +1,10 @@
+.env
+.idea
+bin
+djangoProject/__pycache__
+todo/__pycache__
+todo\__init__.py
+venv
+.vscode
+db.sqlite3
+pyvenv.cfg
